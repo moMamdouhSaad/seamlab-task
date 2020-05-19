@@ -1,0 +1,242 @@
+
+
+
+@media (min-width: 1200px) {
+
+    #burger-btn,#mobile-logo{
+        display: none;
+    }
+    .container {
+        max-width: 2000px;
+    }
+    #logo-nav-container{
+        padding-top:50px
+    } 
+
+     #header-wrapper{
+        background-position: right top;
+        background-image: url('/assets/svg/BgShape.svg');
+        background-repeat: no-repeat;
+        background-size: 50%;
+        position: relative;
+        height: 1300px;
+        border:2px red dashed
+        }
+        #nav-wrapper{
+            display: flex;
+            align-items: center;
+            /* margin-right:20% */
+        }
+    
+        #nav-wrapper nav {
+    
+        }
+    
+        #nav-wrapper nav a{
+            color:white;
+            text-decoration: none;
+            padding:14px;
+            font-weight: bold;
+            font-size: 30px;
+            /* font-size: x-large; */
+    
+        }
+    
+    
+        #nav-wrapper{
+            display: flex;
+            align-items: center;
+        }
+     #img-wrapper img{
+         /* border: 2px red dashed; */
+         /* display: none; */
+         height: 900px;
+     }
+     .slogan-img-container{
+        display: flex;
+        margin-top:60px;
+        align-items: center;
+    }
+
+    #slogan-wrapper p:nth-child(1) {
+        color:rgb(71, 69, 69);
+        font-size: 2vw;
+        margin: 0;
+        padding: 0;
+    }
+    #slogan-wrapper p:nth-child(2) {
+        color:rgb(71, 69, 69);
+        font-size: 4vw;
+        font-weight: 600;
+        margin: 0;
+        padding: 0;
+    }
+    #slogan-wrapper p:nth-child(3),p:nth-child(4){
+        color:rgb(71, 69, 69);
+        margin: 0;
+        padding: 0;
+        font-size: 1vw;
+    }
+
+#audit-button{
+    background-image: linear-gradient(to right, rgb(47, 0, 255),rgb(70, 34, 233));
+    color: white;
+    padding: 20px 35px 20px 35px;
+    border: 0;
+    border-radius: 50px;
+    margin-top:20px;
+    /* width: 300px; */
+    font-size: 40px;
+}
+  }
+
+@media only screen and (max-width: 1199px) {
+    
+    /* tablets and desktop */
+    #burger-btn,#mobile-logo{
+        display: none;
+    }
+    .container {
+        max-width: 1500px;
+    }
+    #logo-nav-container{
+        padding-top:50px
+    } 
+
+     #header-wrapper{
+        background-position: right top;
+        background-image: url('/assets/svg/BgShape.svg');
+        background-repeat: no-repeat;
+        background-size: 70%;
+        position: relative;
+        height: 1000px;
+        border:2px green dashed
+        }
+        #nav-wrapper{
+            display: flex;
+            align-items: center;
+        }
+    
+        #nav-wrapper nav {
+    
+        }
+    
+        #nav-wrapper nav a{
+            color:white;
+            text-decoration: none;
+            padding:14px;
+            font-weight: bold;
+            font-size: 15px;
+            margin-right:20px
+    
+        }
+    
+    
+        #nav-wrapper{
+            display: flex;
+            align-items: center;
+        }
+     #img-wrapper img{
+        
+     }
+     .slogan-img-container{
+        display: flex;
+        align-items: center;
+        margin-top:30px
+    }
+
+    #slogan-wrapper p:nth-child(1) {
+        color:rgb(71, 69, 69);
+        font-size: 2vw;
+        margin: 0;
+        padding: 0;
+    }
+    #slogan-wrapper p:nth-child(2) {
+        color:rgb(71, 69, 69);
+        font-size: 4vw;
+        font-weight: 600;
+        margin: 0;
+        padding: 0;
+    }
+    #slogan-wrapper p:nth-child(3),p:nth-child(4){
+        color:rgb(71, 69, 69);
+        margin: 0;
+        padding: 0;
+        font-size: 1vw;
+    }
+
+#audit-button{
+    background-image: linear-gradient(to right, rgb(47, 0, 255),rgb(70, 34, 233));
+    color: white;
+    padding: 15px 25px 15px 25px;
+    border: 0;
+    border-radius: 40px;
+    margin-top:20px;
+    /* width: 300px; */
+    font-size: 20px;
+
+
+}
+   
+}
+
+@media only screen and (max-width: 767px) {
+    /* phones */
+    nav,#desktop-logo{
+        display: none;
+    }
+    #mobile-logo,#burger-btn{
+        display: block;
+    }
+
+    #header-wrapper{
+        background-position: right top;
+        background-image: url('/assets/svg/BgShape.svg');
+        background-repeat: no-repeat;
+        background-size: 150%;
+        height: 100%;
+    }
+
+    #logo-nav-container{
+        padding:20px
+    }
+
+        .slogan-img-container{
+            display: flex;
+            margin-top:40px;
+            flex-direction: column-reverse;
+        }
+        #slogan-wrapper p:nth-child(1) {
+            color:rgb(71, 69, 69);
+            font-size: 40px;
+            margin: 0;
+            padding: 0;
+        }
+        #slogan-wrapper p:nth-child(2) {
+            color:rgb(71, 69, 69);
+            font-size: 40px;
+            font-weight: 800;
+            margin: 0;
+            padding: 0;
+        }
+        #slogan-wrapper p:nth-child(3),p:nth-child(4){
+            color:rgb(71, 69, 69);
+            margin: 0;
+            padding: 0;
+            font-size: 15px;
+            
+        }   
+        #audit-button{
+            background-image: linear-gradient(to right, rgb(47, 0, 255),rgb(70, 34, 233));
+            color: white;
+            padding: 10px 25px 10px 25px;
+            border: 0;
+            border-radius: 20px;
+            margin-top:10px
+        }
+        
+}
+
+@media only screen and (max-width: 767px) and (orientation: portrait) {
+    /* portrait phones */
+}
