@@ -1,0 +1,70 @@
+
+@media (min-width: 1200px) {
+   
+}
+
+@media only screen and (min-width: 768px) {
+    /* tablets and desktop */
+    .container {
+        max-width: 2000px;
+    }
+    #title{
+        font-size: 70px;
+        font-weight: 800;
+        color:rgb(71, 69, 69);
+        }
+    #description{
+            font-size: 35px;
+            margin-top:15px;
+            color:rgb(71, 69, 69);
+        }
+        #whoWeAre-container{
+            background-image: url('/assets/svg/Group182.svg');
+            background-repeat: no-repeat;
+            
+            }
+
+            #seemore-button{
+                background-image: linear-gradient(to right, rgb(47, 0, 255),rgb(70, 34, 233));
+                color: white;
+                padding: 20px 35px 20px 35px;
+                border: 0;
+                border-radius: 50px;
+                margin-top:20px;
+                /* width: 300px; */
+                font-size: 40px;
+            }
+}
+
+@media only screen and (max-width: 767px) {
+    #title{
+        font-size: 55px;
+        font-weight: 700;
+        color:rgb(71, 69, 69);
+        }
+    #description{
+            font-size: 25px;
+            margin-top:15px;
+            color:rgb(71, 69, 69);
+        }
+        #whoWeAre-container{
+            background-image: none;
+            background-repeat: no-repeat;
+            }
+            #seemore-button{
+                background-image: linear-gradient(to right, rgb(47, 0, 255),rgb(70, 34, 233));
+                color: white;
+                padding: 10px 25px 10px 25px;
+                border: 0;
+                border-radius: 20px;
+                margin-top:10px
+            }
+            
+        }
+
+@media only screen and (max-width: 767px) and (orientation: portrait) {
+    /* portrait phones */
+}
+
+ 
+

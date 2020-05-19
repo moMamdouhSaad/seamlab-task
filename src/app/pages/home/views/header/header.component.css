@@ -19,8 +19,8 @@
         background-repeat: no-repeat;
         background-size: 50%;
         position: relative;
-        height: 1300px;
-        border:2px red dashed
+        height: 1200px;
+        border: 2px red dashed;
         }
         #nav-wrapper{
             display: flex;
@@ -110,7 +110,6 @@
         background-size: 70%;
         position: relative;
         height: 1000px;
-        border:2px green dashed
         }
         #nav-wrapper{
             display: flex;
