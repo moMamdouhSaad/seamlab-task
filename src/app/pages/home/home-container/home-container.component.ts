@@ -12,4 +12,10 @@ export class HomeContainerComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  goToSection(id){
+    const el: HTMLElement|null = document.getElementById(id);
+    console.log(el)
+    el.scrollIntoView({behavior: 'smooth', block: 'start', inline: 'nearest'});
+
+  }
 }

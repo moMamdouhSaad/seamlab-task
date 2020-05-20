@@ -1,9 +1,15 @@
 
-<app-header></app-header>
+<app-header (navLinkClicked)="goToSection($event)"></app-header>
 <app-about></app-about>
 <br>
+<div id='services'>
 <app-services-list></app-services-list>
+</div>
 <br>
+<div id='prices'>
 <app-prices></app-prices>
+</div>
 <br>
 <app-subscribe></app-subscribe>
+<br>
+<app-footer></app-footer>
