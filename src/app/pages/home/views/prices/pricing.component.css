@@ -1,0 +1,76 @@
+.test {
+    background-color:orange !important;
+  }
+  .package-container{
+      /* background-color: blue !important; */
+  }
+  .packageContainerActive{
+      background-color: rgb(0, 255, 98) !important;
+  }
+
+.dot {
+    height: 25px;
+    width: 25px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+  }
+
+  .isActive{
+    background-color: red;
+
+  }
+owl-carousel-o {
+    align-content: center;
+  }
+
+  .owl-carousel-o .active{
+      color:red
+  }
+  ::ng-deep .owl-item {
+    text-align: center;
+  }
+#title-wrapper{
+    text-align: center;
+    padding-top:70px;
+}
+.selected-package-container{
+    height: 700px;
+    background-color: white;
+    width: 100%;
+    border-radius: 60px;
+
+}
+
+
+.package-container{
+    height: 500px;
+    background-color: white;
+    width: 100%;
+    border-radius: 60px;
+    margin:0 auto;
+
+
+}
+@media only screen and (min-width: 768px) {
+    
+        #title{
+            font-size: 70px;
+            font-weight: 800;
+            color:rgb(71, 69, 69);
+        }
+    }
+    
+    @media only screen and (max-width: 767px) {
+        /* phones */
+        #title{
+            font-size: 55px;
+            font-weight: 700;
+            color:rgb(71, 69, 69);
+            }
+    }
+    
+    @media only screen and (max-width: 767px) and (orientation: portrait) {
+        /* portrait phones */
+    }
+    

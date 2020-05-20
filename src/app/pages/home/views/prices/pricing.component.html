@@ -1,0 +1,47 @@
+<div class='container-fluid' style='background-color: rgba(146, 100, 255, 0.226);height:900px'>
+
+    <div class='container'>
+        <div id='title-wrapper'>
+            <p id='title'>Our Pricing</p>
+        </div>
+
+        <div id='packages-wrapper'>
+            <div class='row'>
+              
+
+                <owl-carousel-o #owlCar class='col-12' [options]="customOptions">
+
+                        <ng-template   carouselSlide *ngFor='let package of packages' [id]="package.order">
+                                <app-package [package]='package.title'></app-package>
+                        </ng-template>  
+                      
+                 </owl-carousel-o>
+                 <div style='text-align: center;padding:10px;margin-top:30px;' class='col-12'>
+             
+                    <span [class.isActive]="activeClass === '0'"    (click)="sliderHandler(owlCar, '0')" class="dot"></span>
+                    <span [class.isActive]="activeClass === '1'"    (click)="sliderHandler(owlCar, '1')" class="dot"></span>
+                    <span [class.isActive]="activeClass === '2'"     (click)="sliderHandler(owlCar, '2')" class="dot"></span>
+   
+                </div>
+               
+                </div>
+               
+
+            <!-- <owl-carousel [options]="mySlideOptions" [items]="myCarouselImages" [carouselClasses]="['owl-theme', 'sliding']" >
+                <div class="item" *ngFor="let image of mySlideImages;let i = index">
+                <div>
+                <img style='border:2px red dashed' src={{image}}/>
+                </div>
+                </div>
+                </owl-carousel>       -->
+                
+             
+                
+        </div>
+
+
+
+    </div>
+
+
+</div>
