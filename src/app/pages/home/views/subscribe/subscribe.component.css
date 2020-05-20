@@ -14,13 +14,13 @@
 
     }
     input{
-        height: 75px;
+        height: 65px;
         padding:30px;
         background-color: rgba(191, 189, 223, 0.459);
         border:0;
-        width: 600px;
+        width: 500px;
         margin:20px;
-        font-size: 30px;
+        font-size: 20px;
         border-radius: 20px;
     }
 

@@ -17,26 +17,26 @@ html,body{
 @media only screen and (min-width: 768px) {
     /* tablets and desktop */
     .container {
-        max-width: 2000px;
+        /* max-width: 2000px; */
     }
     button{
         background-image: linear-gradient(to right, rgb(47, 0, 255),rgb(70, 34, 233));
         color: white;
-        padding: 20px 35px 20px 35px;
+        padding: 20px 45px 20px 45px;
         border: 0;
         border-radius: 50px;
         margin-top:20px;
-        font-size: 30px;
+        font-size: 20px;
     }
 
     .title{
-        font-size: 90px;
+        font-size: 70px;
         font-weight: 700;
         color:rgb(71, 69, 69);
         }
 
     .description{
-            font-size: 40px;
+            font-size: 25px;
             margin-top:10px;
             color:rgb(71, 69, 69);
        }
@@ -45,11 +45,11 @@ html,body{
       text-align: center;
       color:rgb(71, 69, 69);
       font-weight: 600;
-      font-size: 30px;
+      font-size: 20px;
 
   }
   .card-description{
-    font-size: 25px;
+    font-size: 15px;
     margin-top:10px;
     color:rgb(71, 69, 69);
     text-align: center;

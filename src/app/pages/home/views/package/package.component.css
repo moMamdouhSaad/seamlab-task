@@ -6,7 +6,7 @@
         padding:35px
     }
 .selected-package{
-    height: 600px !important;
+    height: 500px !important;
 }
 
 .selected-package button{
@@ -16,7 +16,7 @@
 
 }
     .package-container{
-        height: 500px;
+        height: 450px;
         background-color: white;
         cursor: pointer;
         box-shadow: 2px 5px 20px rgba(105, 44, 218, 0.315);
@@ -28,7 +28,7 @@
     .package-container button{
         background-image: linear-gradient(to right, rgb(255, 255, 255),rgb(255, 255, 255));
         color:rgb(2, 19, 255);
-        border:2px black solid
+        border:2px rgb(2, 19, 255) solid
     }
     #price{
         font-size: 35px;
