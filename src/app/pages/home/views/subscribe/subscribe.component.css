@@ -1,0 +1,41 @@
+
+@media only screen and (min-width: 768px) {
+    /* tablets and desktop */
+
+    .container{
+        margin-top:70px
+    }
+    p{
+        font-size: 40px;
+    }
+    input{
+        height: 50px;
+        padding:30px;
+        background-color: rgba(206, 203, 203, 0.705);
+        border:0;
+        width: 600px;
+        margin:20px
+    }
+
+}
+
+@media only screen and (max-width: 767px) {
+    /* phones */
+    p{
+        font-size: 35px;
+    }
+
+    input{
+        height: 50px;
+        padding:30px;
+        background-color: rgba(206, 203, 203, 0.705);
+        border:0;
+        width: 90%;
+        margin:20px
+    }
+
+}
+
+@media only screen and (max-width: 767px) and (orientation: portrait) {
+    /* portrait phones */
+}

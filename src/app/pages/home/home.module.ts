@@ -11,11 +11,12 @@ import { FooterComponent } from './views/footer/footer.component';
 import { ServiceComponent } from './views/service/service.component';
 import { PackageComponent } from './views/package/package.component';
 import { OrderBy } from './pipes/orderBy.pipe';
+import { SubscribeComponent } from './views/subscribe/subscribe.component';
 
 
 
 @NgModule({
-  declarations: [HomeContainerComponent, HeaderComponent, AboutComponent, ServicesListComponent, PricesComponent, FooterComponent, ServiceComponent, PackageComponent,OrderBy],
+  declarations: [HomeContainerComponent, HeaderComponent, AboutComponent, ServicesListComponent, PricesComponent, FooterComponent, ServiceComponent, PackageComponent,OrderBy, SubscribeComponent],
   imports: [
     CommonModule,
     CarouselModule,
