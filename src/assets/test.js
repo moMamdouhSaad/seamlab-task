@@ -1,3 +1,0 @@
-function teest(){
-    alert('papy')
-}

@@ -3,11 +3,11 @@
 @import '~material-design-icons/iconfont/material-icons.css';
 
 
-/* @import '~ngx-owl-carousel-o/lib/styles/prebuilt-themes/owl.carousel.min.css';
+@import '~ngx-owl-carousel-o/lib/styles/prebuilt-themes/owl.carousel.min.css';
 @import '~ngx-owl-carousel-o/lib/styles/prebuilt-themes/owl.theme.default.min.css';
 
 @import "../node_modules/owl.carousel/dist/assets/owl.carousel.min.css";
-@import "../node_modules/owl.carousel/dist/assets/owl.theme.default.min.css"; */
+@import "../node_modules/owl.carousel/dist/assets/owl.theme.default.min.css";
 
 
 html,body{
