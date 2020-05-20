@@ -1,0 +1,23 @@
+.wrapper {
+    position: fixed;
+    width: 50%;
+    height: 100%;
+     display: flex;
+    
+    /* align-items: center; */
+    top: 0;
+    left: 0;
+    background-color: rgba(27, 27, 27, 0.5);
+    z-index: 998;
+    
+}
+
+.nav-item{
+    text-align: left;
+    padding:10px;
+}
+.nav-item p {
+    color:white;
+    font-size: 15px;
+    font-weight: 400;
+}

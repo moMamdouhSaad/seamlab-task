@@ -16,7 +16,7 @@
                 <a  (click)="goToSection('prices')"> PRICES</a>
                 <a >CONTACT</a>
             </nav>
-            <span style='color:white' id='burger-btn' class="material-icons">
+            <span style='color:white' (click)='showOverlay()' id='burger-btn' class="material-icons">
                 menu
             </span>
          </div>
@@ -30,7 +30,8 @@
             <p>FOR BUSINESS!</p>
             <p>PERFORMANCE BASED SOCIAL MEDIA AGENCE</p>
             <p>WE ARE LOREM MEDIA</p>
-            <button id='audit-button'>GET A FREE AUDIT</button> 
+            <button >GET A FREE AUDIT</button> 
+            <!-- id='audit-button' -->
         </div>
 
         <div id='img-wrapper' class='col-lg-6 col-md-6 col-sm-12'>

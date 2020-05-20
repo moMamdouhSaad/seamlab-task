@@ -12,15 +12,25 @@ import { ServiceComponent } from './views/service/service.component';
 import { PackageComponent } from './views/package/package.component';
 import { OrderBy } from './pipes/orderBy.pipe';
 import { SubscribeComponent } from './views/subscribe/subscribe.component';
+import { OverlayModule } from '@angular/cdk/overlay';
+import { ReactiveFormsModule } from '@angular/forms';
+import { HttpClientModule } from '@angular/common/http';
+import { OverlayComponent } from './views/overlay/overlay.component';
+import {MatSnackBarModule} from '@angular/material/snack-bar';
+
 
 
 
 @NgModule({
-  declarations: [HomeContainerComponent, HeaderComponent, AboutComponent, ServicesListComponent, PricesComponent, FooterComponent, ServiceComponent, PackageComponent,OrderBy, SubscribeComponent],
+  declarations: [HomeContainerComponent, HeaderComponent, AboutComponent, ServicesListComponent, PricesComponent, FooterComponent, ServiceComponent, PackageComponent,OrderBy, SubscribeComponent, OverlayComponent],
   imports: [
     CommonModule,
     CarouselModule,
-    OwlModule
+    OwlModule,
+    OverlayModule,
+    ReactiveFormsModule,
+    HttpClientModule,
+    MatSnackBarModule
   ],
   exports:[HomeContainerComponent]
 })

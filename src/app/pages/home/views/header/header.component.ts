@@ -8,6 +8,8 @@ import { Component, OnInit, Output, EventEmitter } from '@angular/core';
 export class HeaderComponent implements OnInit {
 
   @Output() navLinkClicked:EventEmitter<string> = new EventEmitter<string>();
+  @Output() menuBtnClicked:EventEmitter<string> = new EventEmitter<string>();
+
 
   constructor() { }
 
@@ -16,6 +18,10 @@ export class HeaderComponent implements OnInit {
 
   goToSection(value){ 
     this.navLinkClicked.emit(value)
+  }
+
+  showOverlay(){
+    this.menuBtnClicked.emit('show');
   }
 
 }

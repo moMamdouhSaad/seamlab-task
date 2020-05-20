@@ -3,18 +3,112 @@
 
 @media only screen and (min-width: 768px) {
     /* tablets and desktop */
-    .container{}
+    .container-fluid{
+        background-color: white;
+        background-image: url('/assets/svg/MaskGroup1.svg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 1200px;
+        border: 2px red dashed;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    #logo{
+        color:white;
+        font-size:60px;
+        font-weight: 400;
+    }
+    #stay-in-touch{
+        color:white;
+        font-size: 60px;
+        font-weight: 400;
+    }
+    .items-head{
+        color:white;
+        font-size: 40px;
+    }
+    .item{
+        color:white;
+        font-size: 20px;
+        margin:10px;
+    }
   
 
 }
 
 @media only screen and (max-width: 767px) {
-    /* phones */
-  
+    .container-fluid{
+        background-color: rgb(255, 255, 255);
+        background-image: url('/assets/svg/MaskGroup1.svg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 900px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    #hours-section{
+        display: none;
+    }
+
+    #logo{
+        color:white;
+        font-size:25px;
+        font-weight: bold;
+    }
+    #stay-in-touch{
+        color:white;
+        font-size: 25px;
+        font-weight: bold;
+    }
+    .items-head{
+        color:white;
+        font-size: 20px;
+    }
+    .item{
+        color:white;
+        font-size: 15px;
+        margin:3px;
+    }
+
     
 }
 
 @media only screen and (max-width: 767px) and (orientation: portrait) {
     /* portrait phones */
+    .container-fluid{
+        background-color: rgb(255, 255, 255);
+        background-image: url('/assets/svg/MaskGroup1.svg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 600px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }  
+    #hours-section{
+        display: none;
+    }
+
+    #logo{
+        color:white;
+        font-size:25px;
+        font-weight: bold;
+    }
+    #stay-in-touch{
+        color:white;
+        font-size: 25px;
+        font-weight: bold;
+    }
+    .items-head{
+        color:white;
+        font-size: 20px;
+    }
+    .item{
+        color:white;
+        font-size: 15px;
+        margin:3px;
+    }
   
 }
