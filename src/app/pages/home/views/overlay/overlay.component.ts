@@ -22,13 +22,14 @@ import { trigger, state, style, transition, animate } from '@angular/animations'
 })
 export class OverlayComponent implements OnInit {
 
-  constructor(private navService:NavService, private overlayService:OverlayServie) { }
+  constructor(private navService:NavService, private overlayService: OverlayServie) { }
 
   ngOnInit(): void {
   }
 
   goToSection(id){
     this.navService.goToSection(id);
+
   }
   closeOverlay(){
     this.overlayService.hideOverlay();

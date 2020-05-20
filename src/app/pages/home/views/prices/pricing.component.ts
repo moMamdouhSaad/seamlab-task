@@ -1,6 +1,7 @@
 import { Component, OnInit, HostBinding, ViewChild } from '@angular/core';
 import { OwlOptions } from 'ngx-owl-carousel-o';
 import { ViewEncapsulation } from '@angular/core';
+import { Package } from '../../interfaces/package';
 
 
 @Component({
@@ -39,11 +40,11 @@ export class PricesComponent implements OnInit {
   }
 
 
-  packages =
+  packages:Package[] =
   [
-  {order:'0',title:'gold'},
-  {order:'1',title:'platinum'},
-  {order:'2',title:'silver'}
+  {order:'0',title:'Gold Package',price:140,description:'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore'},
+  {order:'1',title:'Platinum Package',price:160,description:'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore'},
+  {order:'2',title:'silver Package', price:120,description:'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore'}
 ]
 clicked=null
 
@@ -56,15 +57,13 @@ clicked=null
   selectPackage($event){
     
     this.selectedPackage = $event;
-    console.log(this.selectedPackage);
     
   }
 
   
   
 sliderHandler(owlCar, slideOrder){
-  this.activeClass = slideOrder
-  console.log(this.activeClass)
+  this.activeClass = slideOrder;
   owlCar.to(slideOrder)
 }  
  

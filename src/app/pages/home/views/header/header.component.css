@@ -22,7 +22,6 @@ a{
         background-size: 50%;
         position: relative;
         height: 1200px;
-        border: 2px red dashed;
         }
         #nav-wrapper{
             display: flex;
@@ -30,9 +29,7 @@ a{
             /* margin-right:20% */
         }
     
-        #nav-wrapper nav {
-    
-        }
+        
     
         #nav-wrapper nav a{
             color:white;
@@ -50,8 +47,6 @@ a{
             align-items: center;
         }
      #img-wrapper img{
-         /* border: 2px red dashed; */
-         /* display: none; */
          height: 900px;
      }
      .slogan-img-container{

@@ -1,15 +1,13 @@
 <div class='service-container'>
 
     <div id='icon-wrapper'>
-           <img src='assets/svg/004-social-media-1.svg'> 
-
+           <img [src]='service.iconUrl'> 
     </div>
 
 <div class='title-description-wrapper'>
-    <p class='card-title'> TITLE</p>
+    <p class='card-title'> {{service.title}}</p>
     <p class='card-description'>
-         Perfect for growing your brand's social community and engage the with 
-         the right audience. We manage everything from curation of content to management of    
+       {{service.description}}  
     </p>
 </div>
 

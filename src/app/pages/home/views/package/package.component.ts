@@ -1,5 +1,6 @@
 import { Component, OnInit, Output, EventEmitter, Input } from '@angular/core';
 import { ViewEncapsulation } from '@angular/core';
+import { Package } from '../../interfaces/package';
 
 @Component({
   selector: 'app-package',
@@ -10,17 +11,16 @@ import { ViewEncapsulation } from '@angular/core';
 })
 export class PackageComponent implements OnInit {
 
-  @Output() selectPackage:EventEmitter<string> = new EventEmitter<string>();
-  @Input() package: string;
+  @Input() package: Package;
+  @Input() activeClass:string;
 
   
   constructor() { }
 
   ngOnInit(): void {
+    console.log(this.activeClass)
   }
 
-  selectedPackage(){
-    this.selectPackage.emit(this.package);
-  }
+  
 
 }

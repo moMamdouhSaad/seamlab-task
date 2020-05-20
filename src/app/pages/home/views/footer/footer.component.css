@@ -9,7 +9,6 @@
         background-repeat: no-repeat;
         background-size: cover;
         height: 1200px;
-        border: 2px red dashed;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -65,6 +64,8 @@
     .items-head{
         color:white;
         font-size: 20px;
+        margin-top:15px;
+
     }
     .item{
         color:white;

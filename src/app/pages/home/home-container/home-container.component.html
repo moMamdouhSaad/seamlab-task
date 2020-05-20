@@ -3,15 +3,13 @@
 <app-header (menuBtnClicked)="showOverlay($event)" (navLinkClicked)="goToSection($event)"></app-header>
 <app-about></app-about>
 </div>
-<br>
 <div id='services'>
 <app-services-list></app-services-list>
 </div>
-<br>
 <div id='prices'>
 <app-prices></app-prices>
 </div>
-<br>
 <app-subscribe (userSubscribe)='newSubscription($event)' ></app-subscribe>
-<br>
+<div id='footer'>
 <app-footer></app-footer>
+</div>

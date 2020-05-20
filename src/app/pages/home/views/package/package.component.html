@@ -1,13 +1,12 @@
 
-<div class='container package-container' (click)='selectedPackage()'>
+<div class='container package-container ' [class.selected-package]='package.order == activeClass'>
     <div class='title-description-wrapper'>
-        <p  class='card-title'> {{package}}</p>
+        <p  class='card-title'> {{package.title}}</p>
         <p  class='card-description'>
-             Perfect for growing your brand's social community and engage the with 
-             the right audience. We manage everything from curation of content to management of    
+           {{package.description}}   
         </p>
     </div>
-    <p id='price'> 140$ </p>
+    <p id='price'> {{package.price}}$ </p>
     
     <div id='btn-wrapper'>
         <button>SEE DETAILS</button> 

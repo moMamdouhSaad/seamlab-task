@@ -2,15 +2,12 @@
 @import "../node_modules/bootstrap/dist/css/bootstrap.css";
 @import '~material-design-icons/iconfont/material-icons.css';
 
-/* @import '../node_modules/ngx-owl-carousel-o/lib/styles/prebuilt-themes/owl.carousel.min.css';
-@import '../node_modules/ngx-owl-carousel-o/lib/styles/prebuilt-themes/owl.theme.default.min.css'; */
-/* @import '@angular/material/prebuilt-themes/indigo-pink.css'; */
 
-@import '~ngx-owl-carousel-o/lib/styles/prebuilt-themes/owl.carousel.min.css';
+/* @import '~ngx-owl-carousel-o/lib/styles/prebuilt-themes/owl.carousel.min.css';
 @import '~ngx-owl-carousel-o/lib/styles/prebuilt-themes/owl.theme.default.min.css';
 
 @import "../node_modules/owl.carousel/dist/assets/owl.carousel.min.css";
-@import "../node_modules/owl.carousel/dist/assets/owl.theme.default.min.css";
+@import "../node_modules/owl.carousel/dist/assets/owl.theme.default.min.css"; */
 
 
 html,body{
@@ -36,28 +33,27 @@ html,body{
         font-size: 90px;
         font-weight: 700;
         color:rgb(71, 69, 69);
-        border:2px rgb(31, 9, 9) dashed
         }
 
     .description{
             font-size: 40px;
             margin-top:10px;
             color:rgb(71, 69, 69);
-            border:2px green dashed;
        }
 
   .card-title{
-      border:2px green dashed;
       text-align: center;
       color:rgb(71, 69, 69);
       font-weight: 600;
-      font-size: 60px;
+      font-size: 30px;
 
   }
   .card-description{
     font-size: 25px;
     margin-top:10px;
     color:rgb(71, 69, 69);
+    text-align: center;
+
   }
 }
 
@@ -87,7 +83,6 @@ button{
         font-size: 35px;
         font-weight: 700;
         color:rgb(71, 69, 69);
-        border:2px blue dashed
         }
 
 .description{
@@ -97,17 +92,18 @@ button{
        }
 
   .card-title{
-      border:2px green dashed;
       text-align: center;
       color:rgb(71, 69, 69);
       font-weight: 600;
-      font-size: 30px;
+      font-size: 20px;
 
   }
   .card-description{
     font-size: 15px;
     margin-top:10px;
     color:rgb(71, 69, 69);
+    text-align: center;
+
   }
 }
 
@@ -129,7 +125,6 @@ button{
             font-size: 35px;
             font-weight: 700;
             color:rgb(71, 69, 69);
-            border:2px blue dashed
             }
     
     .description{
@@ -139,17 +134,17 @@ button{
            }
 
       .card-title{
-          border:2px green dashed;
           text-align: center;
           color:rgb(71, 69, 69);
           font-weight: 600;
-          font-size: 30px;
+          font-size: 18px;
 
       }
       .card-description{
         font-size: 15px;
         margin-top:10px;
         color:rgb(71, 69, 69);
+        text-align: center;
       }     
 
 
